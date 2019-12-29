@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
   if array.include?(value_to_find)
     counter = 0 
     while array[counter] != value_to_find
-      array[counter] += 1
+      counter += 1
   end
   else
     return "VALUE DOES NOT EXIST WITHIN ARRAY"
