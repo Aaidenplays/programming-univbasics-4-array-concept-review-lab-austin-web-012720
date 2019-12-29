@@ -7,6 +7,7 @@ def find_element_index(array, value_to_find)
   end
   else
     return "VALUE DOES NOT EXIST WITHIN ARRAY"
+  end
 return counter
 end
 
