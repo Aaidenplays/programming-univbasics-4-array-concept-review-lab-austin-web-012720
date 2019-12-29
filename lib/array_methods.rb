@@ -1,5 +1,12 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  if array.include?(value_to_find)
+    counter = 0 
+    while array[counter != value_to_find]
+      array[counter] += 1 
+    end 
+  else
+    return "VALUE DOES NOT EXIST WITHIN ARRAY"
+counter
 end
 
 def find_max_value(array)
